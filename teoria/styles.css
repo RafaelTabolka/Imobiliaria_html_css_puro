@@ -1,0 +1,188 @@
+body {
+  padding: 20px;
+}
+
+p {
+  color: green;
+}
+
+/* Classes e Ids */
+
+.meuParagrafo{
+  background-color: black;
+  color: red;
+}
+
+#tituloPrincipal{
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.scroll{
+  padding-bottom: 500px;
+  border: none;
+  margin-top: 100%;
+}
+
+/* Estilizar todos os elementos */
+*{
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* Estilizar mais de um elemento por vez */
+
+p, h1{
+  border-bottom: 1px solid red;
+}
+
+/* Cores */
+
+.nomeDaCor{
+  color: pink;
+}
+
+.hexaDecimal{
+  color: #99a8e9;
+  background-color: #333333; 
+}
+
+.rgb{
+  color: rgb(156, 145, 29);
+}
+
+/* Box Model */
+
+.boxModel{
+  width: 90px;
+  height: 60px;
+  padding: 10px;
+  border: solid 1px;
+  margin: 15px;
+}
+
+/* Propriedades de Texto */
+
+.alinhamento{
+  text-align: center;
+}
+
+.transformeMaiuscula{
+  text-transform: uppercase;
+}
+
+.transformeMinusculo{
+  text-transform: lowercase;
+}
+
+/* Espaçamento de Linhas e Letras */
+
+.espacamentoTexto{
+  width: 150px;
+  line-height: 40px;
+  letter-spacing: 8px;
+}
+
+/* Links */
+
+.decoration{
+  text-decoration: none;  
+}
+
+.visitado:visited{
+  color: orange;
+}
+
+.estilo-hover:hover{
+  background-color: #1292ae;
+}
+
+/* Link em Button */
+
+.btn{
+  background-color: #34ae43;
+  border: 3px solid #234966;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 120px;
+  padding: 12px 7px;
+  text-align: center;
+  margin: 20px;
+  transition: 0.5s;
+}
+
+.btn:hover{
+  background-color: #234966;
+}
+
+/* Listas */
+
+.sem-estilo{
+  list-style: none;
+}
+
+/* Display */
+
+.inline{
+  width: 50px;
+  height: 50px;
+  background-color: teal;
+  margin: 5px;
+  display: inline-block;
+}
+
+.bloco{
+  display: block;
+}
+
+.hidden{
+  display: none;
+}
+
+/* Position Fixed */
+
+.elemento-fixo{
+  position: fixed ;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: #1292ae;
+  border-bottom: 1px solid black;
+  margin: 1px;
+  color: #fff;
+}
+
+/* Pseudo Seletor - First Child */
+
+.primeiro-elemento p:first-child{
+  color: purple;
+  font-weight: bold;
+}
+
+/* Pseudo Elemento */
+
+.primeira-letra::first-letter{
+  font-size: 40px;
+  color: blue;
+  background-color: red;
+  padding: 4px;
+}
+
+/* Especifidade */
+
+h2{
+  color: red;
+}
+
+.titulo{
+  color: blue;
+}
+
+#meu-titulo-prefeido{
+  color: purple;
+}
